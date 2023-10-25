@@ -63,7 +63,7 @@ class loganalytics:
         query= await self._kernel.memory.search_async("Query", context["title"])
         txtquery=query[0].text.split(":")[1]      
         print(txtquery)  
-        LOGS_WORKSPACE_ID="81a662b5-8541-481b-977d-5d956616ac5e"
+        LOGS_WORKSPACE_ID="XXXXXXXXXXXXXXX"
         try:
             response = client.query_workspace(LOGS_WORKSPACE_ID, txtquery, timespan=timedelta(days=1))
             if response.status == LogsQueryStatus.PARTIAL:
