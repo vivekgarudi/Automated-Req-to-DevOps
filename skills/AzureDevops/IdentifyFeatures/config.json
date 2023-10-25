@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "description": "Identify azure devops features list from a given requirment text and return the list of features",
+  "type": "completion",
+  "completion": {
+    "max_tokens": 1000,
+    "temperature": 0.0,
+    "top_p": 0.0,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.0
+  },
+     "input": 
+          {
+               "parameters": 
+               [
+                    {
+                    "name": "requirementtext",
+                    "description": "functional Requirement text",
+                    "defaultValue": ""
+                    },
+                    {
+                         "name": "featurelist",
+                         "description": "functional Requirement text",
+                         "defaultValue": ""
+                    },
+                    {
+                         "name": "iprojectgoal",
+                         "description": "ISD project goal",
+                         "defaultValue": "to execute a project to meet customer expectation on functional and non-functional requirement mentioned in the requirements"
+                    },
+                    {
+                         "name": "cprojectgoal",
+                         "description": "customer project goal",
+                         "defaultValue": "to execute a project to meet customer expectation on functional and non-functional requirement mentioned in the requirements"
+                    },
+                    {
+                         "name": "nfrtext",
+                         "description": "non-functional project goal",
+                         "defaultValue": ""
+                    },
+                    {
+                         "name": "previousdiscussion",
+                         "description": "previous discussion",
+                         "defaultValue": "no previous discussion"
+                    },
+                    {
+                         "name": "techstack",
+                         "description": "Technology stack",
+                         "defaultValue": "Microsoft technology stack"
+                    }                   
+                             
+               ]
+          }
+}

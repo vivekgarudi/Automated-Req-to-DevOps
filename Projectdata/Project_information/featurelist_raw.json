@@ -1,0 +1,281 @@
+[
+    {
+        "featurename": "OpenAI and Semantic Kernels Integration",
+        "descriptions": [
+            {
+                "descriptionid": 1,
+                "description": "Leverage the power of OpenAI and semantic kernels to create a more efficient and accurate requirements gathering tool.",
+                "acceptancecriteria": "",
+                "approved": "n",
+                "source": "Identify feature"
+            },
+            {
+                "descriptionid": 2,
+                "description": "Leverage the power of OpenAI and semantic kernels to create a more efficient and accurate requirements gathering tool. This feature aims to address the need for a more precise and efficient tool for gathering requirements. \n\nUser Needs- \n- More accurate requirements gathering \n- Increased efficiency in requirements gathering \n\nFunctional Requirements-\n- Integration of OpenAI \n- Integration of semantic kernels \n- Creation of a requirements gathering tool \n\nNon-Functional Requirements-\n- User-friendly interface \n- High performance \n- Reliable and secure \n\nFeature Scope \nThis feature should be able to integrate OpenAI and semantic kernels to create a requirements gathering tool that is more accurate and efficient.",
+                "acceptancecriteria": "The feature is considered complete when: \n- OpenAI is successfully integrated \n- Semantic kernels are successfully integrated \n- The requirements gathering tool is created and functions as expected \n\nFeature Scope \nThis feature should be able to integrate OpenAI and semantic kernels to create a requirements gathering tool that is more accurate and efficient.",
+                "approved": "Y",
+                "source": "FeatureDescription"
+            },
+            {
+                "descriptionid": 3,
+                "description": "OpenAI feature description",
+                "acceptancecriteria": "OPenAI acceptance criteria",
+                "approved": "n",
+                "source": "historicaldata"
+            }
+        ],
+        "discussionname": "C:\\Users\\vigarudi\\Documents\\code\\Python\\getfeatures\\Projectdata\\Requirement_discussion\\teams_discussion_transcript.txt_1.txt",
+        "approved": "Y"
+    },
+    {
+        "featureid": 2,
+        "featurename": "Data Privacy and Security",
+        "descriptions": [
+            {
+                "descriptionid": 1,
+                "description": "Implement robust encryption and access controls to safeguard the data. Anonymize any client-specific information to protect their identities.",
+                "acceptancecriteria": "",
+                "approved": "n",
+                "source": "Identify feature"
+            }
+        ],
+        "discussionname": "C:\\Users\\vigarudi\\Documents\\code\\Python\\getfeatures\\Projectdata\\Requirement_discussion\\teams_discussion_transcript.txt_1.txt",
+        "approved": "n"
+    },
+    {
+        "featurename": "Regular Security Audits",
+        "descriptions": [
+            {
+                "descriptionid": 1,
+                "description": "Regularly audit and update our security measures to stay ahead of potential threats.",
+                "acceptancecriteria": "",
+                "approved": "n",
+                "source": "Identify feature"
+            },
+            {
+                "descriptionid": 2,
+                "description": "Regularly audit and update our security measures to stay ahead of potential threats. This feature is crucial to ensure the safety and integrity of our product or project. \n User Needs- \n Users need to feel secure and trust that their data is protected. Regular security audits will help maintain this trust. \n \nFunctional Requirements-\n- Ability to schedule regular security audits \n- Update security measures based on audit findings \n- Notify relevant parties of audit results and updates \n \nNon-Functional Requirements-\n- The audit process should be efficient and not disrupt normal operations \n- The audit results should be clear and easy to understand \n- The updates should be implemented swiftly and effectively \nFeature Scope \nThis feature should at least be able to schedule audits, perform audits, and implement updates based on the audit findings.",
+                "acceptancecriteria": "The feature is considered complete when it can: \n- Schedule regular security audits \n- Perform these audits effectively \n- Implement updates based on the audit findings \n \nFeature Scope \nThis feature should at least be able to schedule audits, perform audits, and implement updates based on the audit findings.",
+                "approved": "y",
+                "source": "FeatureDescription"
+            },
+            {
+                "descriptionid": 3,
+                "description": "dummay data az webapp create",
+                "acceptancecriteria": "none",
+                "approved": "n",
+                "source": "historicaldata"
+            }
+        ],
+        "discussionname": "C:\\Users\\vigarudi\\Documents\\code\\Python\\getfeatures\\Projectdata\\Requirement_discussion\\teams_discussion_transcript.txt_1.txt",
+        "approved": "Y"
+    },
+    {
+        "featurename": "User-friendly Interface",
+        "descriptions": [
+            {
+                "descriptionid": 1,
+                "description": "Design the tool with a clean and intuitive user interface.",
+                "acceptancecriteria": "",
+                "approved": "n",
+                "source": "Identify feature"
+            },
+            {
+                "descriptionid": 2,
+                "description": "Design the tool with a clean and intuitive user interface. This feature aims to address the user's need for a simple, easy-to-navigate interface that enhances their experience and productivity. \n User Needs- \n - Easy navigation \n - Clear layout \n - Intuitive design \n \nFunctional Requirements-\n- Requirement 1: The interface should be clean and uncluttered \n- Requirement 2: The design should be intuitive, with clear labels and instructions \n- Requirement 3: The interface should be responsive and fast \n \nNon-Functional Requirements-\n- Requirement 1: The interface should be visually appealing \n- Requirement 2: The interface should be consistent across all pages \n- Requirement 3: The interface should be accessible to users with disabilities \nFeature Scope \nThis feature should address all the above requirements to provide a user-friendly interface.",
+                "acceptancecriteria": "The feature will be considered complete if it meets the following criteria: \n- Criteria 1: The interface is clean and uncluttered \n- Criteria 2: The design is intuitive, with clear labels and instructions \n- Criteria 3: The interface is responsive and fast \n- Criteria 4: The interface is visually appealing \n- Criteria 5: The interface is consistent across all pages \n- Criteria 6: The interface is accessible to users with disabilities \n \nFeature Scope \nThis feature should address all the above criteria to provide a user-friendly interface.",
+                "approved": "y",
+                "source": "FeatureDescription"
+            },
+            {
+                "descriptionid": 3,
+                "description": "OpenAI feature description",
+                "acceptancecriteria": "OPenAI acceptance criteria",
+                "approved": "n",
+                "source": "historicaldata"
+            }
+        ],
+        "discussionname": "C:\\Users\\vigarudi\\Documents\\code\\Python\\getfeatures\\Projectdata\\Requirement_discussion\\teams_discussion_transcript.txt_1.txt",
+        "approved": "Y"
+    },
+    {
+        "featureid": 5,
+        "featurename": "User Testing",
+        "descriptions": [
+            {
+                "descriptionid": 1,
+                "description": "Conduct user testing throughout the development process to identify any issues and make necessary improvements.",
+                "acceptancecriteria": "",
+                "approved": "n",
+                "source": "Identify feature"
+            }
+        ],
+        "discussionname": "C:\\Users\\vigarudi\\Documents\\code\\Python\\getfeatures\\Projectdata\\Requirement_discussion\\teams_discussion_transcript.txt_1.txt",
+        "approved": "n"
+    },
+    {
+        "featureid": 6,
+        "featurename": "User Training and Support",
+        "descriptions": [
+            {
+                "descriptionid": 1,
+                "description": "Provide regular user training and support to ensure that everyone can make the most of the tool.",
+                "acceptancecriteria": "",
+                "approved": "n",
+                "source": "Identify feature"
+            }
+        ],
+        "discussionname": "C:\\Users\\vigarudi\\Documents\\code\\Python\\getfeatures\\Projectdata\\Requirement_discussion\\teams_discussion_transcript.txt_1.txt",
+        "approved": "n"
+    },
+    {
+        "featureid": 7,
+        "featurename": "AI Training for Accuracy",
+        "descriptions": [
+            {
+                "descriptionid": 1,
+                "description": "Train the tool on a vast and diverse dataset of requirements to enhance its understanding of various domains.",
+                "acceptancecriteria": "",
+                "approved": "n",
+                "source": "Identify feature"
+            }
+        ],
+        "discussionname": "C:\\Users\\vigarudi\\Documents\\code\\Python\\getfeatures\\Projectdata\\Requirement_discussion\\teams_discussion_transcript.txt_1.txt",
+        "approved": "n"
+    },
+    {
+        "featureid": 8,
+        "featurename": "Continuous Feedback Loops",
+        "descriptions": [
+            {
+                "descriptionid": 1,
+                "description": "Establish continuous feedback loops with our team and clients to fine-tune the tool and ensure it adapts to specific needs.",
+                "acceptancecriteria": "",
+                "approved": "n",
+                "source": "Identify feature"
+            }
+        ],
+        "discussionname": "C:\\Users\\vigarudi\\Documents\\code\\Python\\getfeatures\\Projectdata\\Requirement_discussion\\teams_discussion_transcript.txt_1.txt",
+        "approved": "n"
+    },
+    {
+        "featureid": 9,
+        "featurename": "Regular AI Model Updates",
+        "descriptions": [
+            {
+                "descriptionid": 1,
+                "description": "Regularly update the underlying AI models to stay current.",
+                "acceptancecriteria": "",
+                "approved": "n",
+                "source": "Identify feature"
+            }
+        ],
+        "discussionname": "C:\\Users\\vigarudi\\Documents\\code\\Python\\getfeatures\\Projectdata\\Requirement_discussion\\teams_discussion_transcript.txt_1.txt",
+        "approved": "n"
+    },
+    {
+        "featureid": 10,
+        "featurename": "Scalability",
+        "descriptions": [
+            {
+                "descriptionid": 1,
+                "description": "Design the tool with a modular and cloud-based architecture, allowing it to scale horizontally as needed.",
+                "acceptancecriteria": "",
+                "approved": "n",
+                "source": "Identify feature"
+            }
+        ],
+        "discussionname": "C:\\Users\\vigarudi\\Documents\\code\\Python\\getfeatures\\Projectdata\\Requirement_discussion\\teams_discussion_transcript.txt_1.txt",
+        "approved": "n"
+    },
+    {
+        "featureid": 11,
+        "featurename": "Load Testing",
+        "descriptions": [
+            {
+                "descriptionid": 1,
+                "description": "Conduct load testing and performance evaluations to ensure the tool can handle an increasing volume of requirements efficiently.",
+                "acceptancecriteria": "",
+                "approved": "n",
+                "source": "Identify feature"
+            }
+        ],
+        "discussionname": "C:\\Users\\vigarudi\\Documents\\code\\Python\\getfeatures\\Projectdata\\Requirement_discussion\\teams_discussion_transcript.txt_1.txt",
+        "approved": "n"
+    },
+    {
+        "featureid": 12,
+        "featurename": "Data Privacy",
+        "descriptions": [
+            {
+                "descriptionid": 1,
+                "description": "Ensure the tool adheres to data privacy regulations and best practices to protect sensitive information",
+                "acceptancecriteria": "",
+                "approved": "n",
+                "source": "Identify feature"
+            }
+        ],
+        "discussionname": "C:\\Users\\vigarudi\\Documents\\code\\Python\\getfeatures\\Projectdata\\Requirement_discussion\\teams_discussion_transcript.txt_2.txt",
+        "approved": "n"
+    },
+    {
+        "featureid": 13,
+        "featurename": "Usability",
+        "descriptions": [
+            {
+                "descriptionid": 1,
+                "description": "Design the tool to be user-friendly, intuitive, and easy to navigate",
+                "acceptancecriteria": "",
+                "approved": "n",
+                "source": "Identify feature"
+            }
+        ],
+        "discussionname": "C:\\Users\\vigarudi\\Documents\\code\\Python\\getfeatures\\Projectdata\\Requirement_discussion\\teams_discussion_transcript.txt_2.txt",
+        "approved": "n"
+    },
+    {
+        "featureid": 14,
+        "featurename": "Accuracy",
+        "descriptions": [
+            {
+                "descriptionid": 1,
+                "description": "Ensure the tool provides accurate and reliable results",
+                "acceptancecriteria": "",
+                "approved": "n",
+                "source": "Identify feature"
+            }
+        ],
+        "discussionname": "C:\\Users\\vigarudi\\Documents\\code\\Python\\getfeatures\\Projectdata\\Requirement_discussion\\teams_discussion_transcript.txt_2.txt",
+        "approved": "n"
+    },
+    {
+        "featureid": 16,
+        "featurename": "Integration",
+        "descriptions": [
+            {
+                "descriptionid": 1,
+                "description": "Design APIs for seamless integration with existing systems",
+                "acceptancecriteria": "",
+                "approved": "n",
+                "source": "Identify feature"
+            }
+        ],
+        "discussionname": "C:\\Users\\vigarudi\\Documents\\code\\Python\\getfeatures\\Projectdata\\Requirement_discussion\\teams_discussion_transcript.txt_2.txt",
+        "approved": "n"
+    },
+    {
+        "featureid": 17,
+        "featurename": "Cost Management",
+        "descriptions": [
+            {
+                "descriptionid": 1,
+                "description": "Define a clear budget, regularly assess cost-effectiveness, and explore open-source technologies to manage costs",
+                "acceptancecriteria": "",
+                "approved": "n",
+                "source": "Identify feature"
+            }
+        ],
+        "discussionname": "C:\\Users\\vigarudi\\Documents\\code\\Python\\getfeatures\\Projectdata\\Requirement_discussion\\teams_discussion_transcript.txt_2.txt",
+        "approved": "n"
+    }
+]

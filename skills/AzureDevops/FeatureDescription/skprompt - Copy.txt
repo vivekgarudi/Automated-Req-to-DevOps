@@ -1,0 +1,5 @@
+Create feature title for {{$title}} and description {{$description}} in json format only where new line should be coming as \\n
+{
+"Featuretitle" : "[Prodive a short title for the feature]",
+"description" : "[Provide a more detailed description of the feature's purpose, the problem it addresses, and its significance to the product or project.] \\nUser Needs- \\n[Outline the specific user needs or pain points that this feature aims to address.] \\n \\nFunctional Requirements-\\n- [Requirement 1] \\n- [Requirement 2] \\n- [Requirement 3] \\n \\nNon-Functional Requirements-\\n- [Requirement 1] \\n- [Requirement 2] \\n- [Requirement 3] \\nFeature Scope \\n[Indicates the minimum capabilities that feature should address. Agreed upon between Engineering Leads and Product Mangers]"
+}

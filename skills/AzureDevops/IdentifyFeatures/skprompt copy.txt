@@ -1,0 +1,11 @@
+As a IT business analyst,I want to identify all features for delivery project whose goal for customer is to {{$cprojectgoal}} and for ISD is to {{$iprojectgoal}} 
+previous requirement discussion:
+{{$previousdiscussion}}
+and new requirement discussion:
+{{$requirementtext}} 
+and non-functional requirements:
+{{$nfrtext}} 
+so that I can create a list of features to be implemented in the project.
+do not include already created features in the list.
+{{$featurelist}}
+Create list one liner title and their description to meet the requirment in json format:[{"Feature" : "Prodive a short title for the feature","description" :"feature description"}]

@@ -1,0 +1,4 @@
+As a business analyst,I want to analyse the {{$input}} to see if it contains any reference to Requirements reponse is Yes if it contains any reference to Requirements else No
+quetion:is {{$input}} contains requirement?
+Answer :
+

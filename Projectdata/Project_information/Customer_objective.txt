@@ -1,0 +1,1 @@
+An automated solution to generate azure devops features to capture requirement.

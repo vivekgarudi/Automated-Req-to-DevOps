@@ -1,0 +1,14 @@
+As a IT business analyst,I want to identify all features in json format for delivery project whose goal for customer is to {{$cprojectgoal}} and for ISD is to {{$iprojectgoal}} 
+previous requirement discussion:
+{{$previousdiscussion}}
+and new requirement discussion:
+{{$requirementtext}} 
+and non-functional requirements:
+{{$nfrtext}} 
+example:
+[{"feature" : "Prodive a short title for the feature","description" :"feature description"}]
+so that I can create a list of features to be implemented in the project.
+{{$featurelist}}
+Create json array with one liner title and their description to meet the requirment in json format
+[{"feature" : "Prodive a short title for the feature","description" :"feature description"}]
+Based on the discussion, here are the features identified in JSON format:

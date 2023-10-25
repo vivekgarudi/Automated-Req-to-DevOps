@@ -1,0 +1,1 @@
+showcase openAI capability using semantic kernel.
