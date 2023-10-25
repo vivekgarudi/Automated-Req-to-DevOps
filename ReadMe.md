@@ -21,7 +21,7 @@ Please install below extension
 Please install below packages
     - PIP
     - semantic-kernel
-- [Download](https://github.com/vivekgarudi/Semantic-Kernal-Azure/tree/main/PlugIn-for-KQLQueries-on-Log-Analytics) the content of repo
+- [Download](hhttps://github.com/vivekgarudi/Automated-Req-to-DevOps) the content of repo
 
 
 # Process flow for End to end requirement gather process using openAI and Semantic kernel
