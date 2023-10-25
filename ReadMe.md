@@ -12,19 +12,19 @@ Let's embark on this exciting journey, where technology meets innovation, and au
 
 ## Pre-requisite
 - Visual studio code
-Please install below extension
+Please install the extension below.
     - Jupyter (Publisher- Microsoft)
     - Python (Publisher- Microsoft)
     - Pylance (Publisher- Microsoft)
     - Semantic Kernel Tools (Publisher- Microsoft)
 - Python
-Please install below packages
+Please install the packages below.
     - PIP
     - semantic-kernel
 - [Download](hhttps://github.com/vivekgarudi/Automated-Req-to-DevOps) the content of repo
 
 
-# Process flow for End to end requirement gather process using openAI and Semantic kernel
+# Process flow for End-to-end requirement gather process using OpenAI and Semantic kernel
 
 ![Alt text](image-1.png)
 
@@ -46,7 +46,7 @@ The folder structure you've described seems to be organized for managing histori
             - **Customer_objective.txt** (Contains the objectives the customer or company wants to achieve with the project)
             - **NFR.txt** (Non-functional requirements for the project, even if not discussed)
             - **project_objective.txt** (Contains the project sponsor's objectives)
-        - **Rawtxt** (A folder where you place all the requirement discussion transcripts)
+        - **Rawtxt** (A folder where you place all the required discussion transcripts)
         - **Requirement_discussion** (A folder used by scripts to store finalized sub-transcripts that are less than 3000 characters and contain requirements)
         - **temp** (Temporary folder used for storing all transcripts generated as part of the transcript splitting process)
     - **End-to-end-requirement-genration-in-AzureDevops.ipynb** (A Jupyter Notebook that integrates and orchestrates the various components for end-to-end requirement generation in Azure DevOps)
@@ -56,56 +56,56 @@ This structure seems well-organized and suitable for a system that automates req
 ![Alt text](image-7.png)
 
 # Information gathering
-The output of this steps is all the relevent information which can directly of indirectly contribute to project success.
+The output of these steps is all the relevant information which can directly or indirectly contribute to project success.
 - Get Delivery Objectives (store the information in Root\Projectdata\Project_information\Customer_objective.txt and project_objective.txt)
 - Gather Non-functional requirements (store the information in Root\Projectdata\Project_information\NFR.txt)
 - Requirements elaboration session transcripts (Store the transcripts inside Root\Projectdata\Rawtxt\)
-Once you have this information you can start with document processing by performing below mentined steps
+Once you have this information you can start with document processing by performing the above-mentioned steps
 
 
 # Document processing
-The objective of this steps is to reduce the size of documents to limited document which actual contains requirement information.
-The output of this step is te get all the sub transcripts containg requirement in Root\Projectdata\Requirement_discussion\ folder.
+The objective of these steps is to reduce the size of documents to limited documents which actual contains requirement information.
+The output of this step is to get all the sub transcripts containing requirement in Root\Projectdata\Requirement_discussion\ folder.
 - Read raw discussion document from "Rawtxt" folders.
-- Breaking big discussion transcript into smaller transcripts of size 3000 character.
+- Breaking big discussion transcripts into smaller transcripts of size 3000 character.
 - Put them in temp folder
-- Check if subpart of the discussion contains requirement or not.
-- It contains requirement put that into "Requirement_discussion" folder
+- Check whether the subpart of the discussion contains requirement or not.
+- It contains requirement put into "Requirement_discussion" folder
 - Import historical feature data in memory
-Covered in steps 1 to 7
+Covered in steps 1 to 7.
 ![Alt text](image-8.png)
 
-Once you have the list of document which contains requirement we can proceed further with feature identification.
+Once you have the list of documents which contains requirement, we can proceed further with feature identification.
 
-# Requirement identification and refinment
-The objective of this process is to identify and groom features and make them ready for importing in to Azure devops
-The optput of this steps is finalized list of features and there details.
+# Requirement identification and refinement
+The objective of this process is to identify and groom features and make them ready for importing into Azure DevOps
+The output of this step is finalized list of features and their details.
 - Identify features from Proceed transcript
 - remove duplicate
-- Refine ,select or add new feature
+- Refine, select, or add new feature
 - groom the selected features
-- finalize feature details to be imported in Azure devops
-Covered in steps 7 to 11
-# Import in Azure devops
-The objective of this steps is to import features in Azure devops with there respective metadata.
-covered step 12 and 13
+- finalize feature details to be imported in Azure DevOps
+Covered in steps 7 to 11.
+# Import in Azure DevOps
+The objective of this step is to import features in Azure DevOps with their respective metadata.
+covered step 12 and 13.
 
 
 # Steps by steps process
 
-- Step 1 - Install all python libraries
+- Step 1 - Install all Python libraries
 - Step 2 - Import Packages required and instantiate objects
-- Step 3 - Import the **Semantic functions**:Azuredevops
+- Step 3 - Import the **Semantic functions**: Azuredevops
 - Step 4 - Splitting raw transcripts to files with <3000 char and copy them to Root\Projectdata\temp\
-- Step 5 -Identify splitted files which are actually containing requirement using "isrequirement" sementic function and copy them to Root\Projectdata\Requirement_discussion\ if they do have requirement.
+- Step 5 -Identify files which are containing requirement using "isrequirement" sementic function and copy them to Root\Projectdata\Requirement_discussion\ if they do have requirement.
 - Step 6 - Read all project information and set project folders.
-- Step 7 - import historical data in memory for using it subsequent steps. If we are using external source such as SQL,COgnitive search, mongodb then this steps would change according to source.
-- Step 8 - We pick files from Root\Projectdata\Requirement_discussion\ folder and process those using "IdentifyFeatures" semantic function.Post that we would remove dulicate requirement.
-- Step 9 - We would perform manual refinment of requirement by updating details in base feature list Json "\Projectdata\Project_information\featurelist_raw.json" In this step we can update feature title ,description and select the feature which are required to implement project by changing the value of "approved" tag to "y". We can manually add feature if its been missed in list.
-- Step 10 - Once you have finalized the list of feature, we groom these feature using "FeatureDescription" semantic function and historical data from memory.The outcome of this step would be, addition of multiple option of description and acceptance criteria.
-- Step 11 - This is the final step befor we import these features in Azure DevOps. In this steps,wWe would perform manual refinment of requirement by updating details in feature list Json "\Projectdata\Project_information\featurelist_raw.json". In this step, we can update feature title ,description and select the Description and acceptance criteria from "descriptions" array by changing the value of "approved" tag to "y". We can manually add\update feature description if its been missed in list.
+- Step 7 - import historical data in memory for using it subsequent steps. If we are using external sources such as SQL, Cognitive search, mongodb then these steps would change according to source.
+- Step 8 - We pick files from Root\Projectdata\Requirement_discussion\ folder and process those using "IdentifyFeatures" semantic function.Post that we would remove duplicate requirement.
+- Step 9 - We would perform manual refinment of requirement by updating details in base feature list Json "\Projectdata\Project_information\featurelist_raw.json" In this step we can update feature title, description and select the feature which are required to implement project by changing the value of "approved" tag to "y". We can manually add features if it’s missed in the list.
+- Step 10 - Once you have finalized the list of features, we groom these features using "FeatureDescription" semantic function and historical data from memory. The outcome of this step would be the addition of multiple options of description and acceptance criteria.
+- Step 11 - This is the final step before we import these features in Azure DevOps. In this step, we would perform manual refinement of requirement by updating details in feature list Json "\Projectdata\Project_information\featurelist_raw.json". In this step, we can update feature title, description and select the Description and acceptance criteria from "descriptions" array by changing the value of "approved" tag to "y". We can manually add\update feature description if it’s been missed in list.
 ![Alt text](image-4.png)
-- Step 12 - Once we have finalized list of features,description ,acceptance crieria(you can inlude other parameters such as efforts business value priority etc as well). we can extecute below step to import them in Azure devops.
-- Step 13 - Validate in azure devops
+- Step 12 - Once we have finalized list of features, description, acceptance criteria (you can include other parameters such as efforts business value priority etc. as well). We can execute the step below to import them in Azure DevOps.
+- Step 13 - Validate in azure DevOps
 ![Alt text](image-6.png)
 ![Alt text](image-5.png)
